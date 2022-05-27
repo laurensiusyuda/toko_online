@@ -1,0 +1,24 @@
+CRITICAL - 2022-05-25 07:59:44 --> Undefined variable $data
+#0 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\app\Views\index\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Portofolio\\T...', 5)
+#1 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('E:\\Portofolio\\T...')
+#2 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('index/index', Array, true)
+#4 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(11): view('index/index', Array)
+#5 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('E:\\Portofolio\\T...')
+#10 {main}
+CRITICAL - 2022-05-25 08:00:27 --> Undefined variable $data
+#0 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\app\Views\index\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'E:\\Portofolio\\T...', 5)
+#1 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(210): include('E:\\Portofolio\\T...')
+#2 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\Common.php(1089): CodeIgniter\View\View->render('index/index', Array, true)
+#4 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\app\Controllers\Home.php(11): view('index/index', Array)
+#5 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 E:\Portofolio\Toko Online\Toko Online\codeigniter4-CodeIgniter4-202f41a\system\Commands\Server\rewrite.php(43): require_once('E:\\Portofolio\\T...')
+#10 {main}
