@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
+<nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
+    <a class="navbar-brand" href="#">Toko Online</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,9 +23,14 @@
                 </div>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+        <div class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="btn btn-success" href="#">Login</a>
+                    <a class="btn btn-success" href="#">Logut</a>
+                    <a class="btn btn-success" href="#">Register</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>

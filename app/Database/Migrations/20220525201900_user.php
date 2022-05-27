@@ -47,7 +47,7 @@ class Users extends Migration
                 'type' => 'DATETIME',
             ],
             'update_by' => [
-                'type' => 'INT',
+                'type' => 'INT',    
                 'constraint' => 11,
                 'null' => true,
             ],
